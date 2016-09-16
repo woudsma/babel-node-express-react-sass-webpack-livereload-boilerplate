@@ -1,12 +1,12 @@
 # Boilerplate: Babel - Node - Express - React - SASS - live reload (server/client)
 
-I was lightly frustrated about finding a clean workflow, which supported Node, ES6, Express, React, SASS and live reload on both server and client side.
-The webpack-dev-server uses a proxy to the node.js server.
-This boilerplate does nothing more than it's title says. See 'package.json'.
-You are free to add any dependency.
-It renders 'Hello World!' and a framecounter with React, served from a node.js server with express.
+I was lightly frustrated about finding a clean workflow, which supported Node, ES6, Express, React, SASS and live reload on both server and client side.  
+The webpack-dev-server uses a proxy to the node.js server.  
+This boilerplate does nothing more than it's title says. See 'package.json'.  
+You are free to add any dependency.  
+Renders 'Hello World!' and a framecounter with React, served from a node.js server with express.  
 
-If you think something is missing, let me know!
+If you think something is missing, let me know!  
 
 ## Workflow
 Server:  
@@ -23,14 +23,15 @@ nodemon: `npm i nodemon -g`
 webpack: `npm i webpack -g`  
 
 ## Installation
-`git clone https://github.com/mojibaked/babel-node-express-react-sass-webpack-livereload-boilerplate.git`  
-`mv babel-node-express-react-sass-webpack-livereload-boilerplate your-project-name`  
-`cd your-project-name`  
-`npm install`  
+1. `git clone https://github.com/mojibaked/babel-node-express-react-sass-webpack-livereload-boilerplate.git`  
+2. `mv babel-node-express-react-sass-webpack-livereload-boilerplate your-project-name`  
+3. `cd your-project-name`  
+4. `npm install`  
 
 ## Usage
 ### Development
 `npm run dev`  
+
 Visit `http://localhost:3001` in your browser  
 
 Server code is watched by nodemon, auto restarts on change.  
@@ -38,6 +39,7 @@ Client code is watched by webpack-dev-server, auto refreshes in browser on chang
 
 ### Production
 `NODE_ENV=production npm run build && npm start`  
+
 Visit `http://localhost:3000` in your browser.  
 
 You should probably add more code for production use.
