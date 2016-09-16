@@ -7,7 +7,6 @@ export default class App extends React.Component {
   constructor() {
     super()
 
-    this.startframe = new Date()
     this.state = { frame: 0 }
   }
 

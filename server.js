@@ -1,7 +1,7 @@
 // Don't start coding here
 
 require('babel-register')
-require('./server.babel')
+require('./src/main')
 
 if(process.env.NODE_ENV === 'development') {
 
