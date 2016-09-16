@@ -18,9 +18,11 @@ Client:
 - SASS
 
 ## Requirements
-node v5.0+: `npm i n -g && n stable`  
+node v5.0+: `npm i n -g && sudo n stable`  
 nodemon: `npm i nodemon -g`  
 webpack: `npm i webpack -g`  
+
+If you get permission errors, try again with `sudo`  
 
 ## Installation
 1. `git clone https://github.com/mojibaked/babel-node-express-react-sass-webpack-livereload-boilerplate.git`  
