@@ -18,7 +18,7 @@ Client:
 - SASS
 
 ## Requirements
-node v5.0+: `npm i n -g && n stable`  
+node v5.0+: `npm i n -g && sudo n stable`  
 nodemon: `npm i nodemon -g`  
 webpack: `npm i webpack -g`  
 
