@@ -6,7 +6,10 @@ module.exports = {
   entry: process.env.NODE_ENV === 'development' ? [
     'webpack-dev-server/client?http://localhost:3001',
     'webpack/hot/only-dev-server',
-    __dirname + '/public/src/main.js' ] : [ __dirname + '/public/src/main.js' ],
+    __dirname + '/public/src/main.js'
+  ] : [
+    __dirname + '/public/src/main.js'
+  ],
   output: {
     path: __dirname + '/public',
     filename: 'bundle.js'

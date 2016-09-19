@@ -40,7 +40,7 @@ Server code is watched by nodemon, auto restarts on change.
 Client code is watched by webpack-dev-server, auto refreshes in browser on change.
 
 ### Production
-`NODE_ENV=production npm run build && npm start`  
+`npm run production`  
 
 Visit `http://localhost:3000` in your browser.  
 

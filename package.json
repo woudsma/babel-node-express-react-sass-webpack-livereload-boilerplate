@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack --colors",
     "dev": "nodemon server",
-    "start": "node server"
+    "start": "node server",
+    "production": "NODE_ENV=production npm run build && npm run start"
   },
   "author": "Tjerk Woudsma",
   "license": "ISC",

@@ -10,11 +10,13 @@ if(process.env.NODE_ENV === 'development') {
   var config = require('./webpack.config.js')
 
   new WebpackDevServer(webpack(config), {
-    inline: true,
-    colors: true,
     historyApiFallback: true,
     proxy: {
      "*": "http://localhost:3000"
+    },
+    stats: {
+      colors: true,
+      chunks: false
     }
   }).listen(3001, 'localhost', function (err, result) {
      if (err) {

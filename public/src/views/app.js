@@ -17,7 +17,7 @@ export default class App extends React.Component {
   }
 
   draw() {
-    requestAnimationFrame(this.draw.bind(this))
+    requestAnimationFrame(::this.draw)
     this.setState({ frame: this.state.frame + 1 })
   }
 
